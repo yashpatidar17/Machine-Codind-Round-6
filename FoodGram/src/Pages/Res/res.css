@@ -1,0 +1,69 @@
+.food-name{
+    display: flex;
+
+}
+
+
+.food-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.food-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.food-container-first{
+    width: 70%;
+}
+.avtr{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.rating-first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.rating-second{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+
+/* .star {
+  display: inline-block;
+  background-color: gold;
+  width: 20px;
+  height: 10px;
+} */
+
+/* .star::after {
+  content: "☆";
+} */
+
+
+.star {
+    background-color:green;
+    width: 20px;
+    padding: 2px;
+    color: yellow;
+    font-weight: bold;
+    border-radius:5px;
+}
+
+.star::after {
+  content: "☆";
+}
